@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EZdlc - BO3 File Manager CLI</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: #161b22;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+
+    p {
+      color: #9da7b3;
+      max-width: 700px;
+      margin: 10px auto;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    code {
+      background: #0d1117;
+      padding: 3px 6px;
+      border-radius: 5px;
+      color: #7ee787;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #238636;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6e7681;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>EZdlc</h1>
+  <p>A lightweight C++ CLI tool for managing Black Ops 3 files for BOIII compatibility.</p>
+  <a class="btn" href="https://github.com/incRxYT/EZdlc">View on GitHub</a>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>⚙️ What is EZdlc?</h2>
+    <p>
+      EZdlc is a command-line tool that helps organize and map Black Ops 3 game files 
+      (zone, sound, video, and all folders) into BOIII-compatible structure.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🚀 Features</h2>
+    <ul>
+      <li>CLI-based interface (no GUI)</li>
+      <li>Dry-run preview before applying changes</li>
+      <li>Copy or Symlink file modes</li>
+      <li>Safe file scanning using known DLC patterns</li>
+      <li>Windows-compatible C++17 implementation</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🧪 Example Usage</h2>
+    <p>Run EZdlc in your terminal:</p>
+    <code>EZdlc.exe</code>
+    <p>Follow prompts to select BO3 and BOIII folders, then apply changes.</p>
+  </div>
+
+  <div class="card">
+    <h2>🛠 Build Instructions</h2>
+    <p>Using CMake:</p>
+    <code>cmake -S . -B build</code><br>
+    <code>cmake --build build --config Release</code>
+  </div>
+
+  <div class="card">
+    <h2>⚠️ Disclaimer</h2>
+    <p>
+      EZdlc does not include or distribute any game files. Users must own their game content.
+      This tool only manages local file organization.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  EZdlc • Open-source CLI tool • Built with C++
+</footer>
+
+</body>
+</html>
