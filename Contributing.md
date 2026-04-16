@@ -6,7 +6,7 @@ This project is a lightweight C++ CLI tool designed to help manage and organize 
 
 ---
 
-## 🧠 Project Goals
+## Project Goals
 
 EZdlc is focused on:
 
@@ -22,7 +22,7 @@ We are NOT:
 
 ---
 
-## 🛠 How to Contribute
+## How to Contribute
 
 ### 1. Fork the repository
 Click **Fork** on GitHub and clone your version:
