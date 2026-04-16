@@ -1,0 +1,18 @@
+# These are supported funding model platforms
+
+github: # optional GitHub Sponsors username (leave blank if none)
+
+patreon: incRX
+
+open_collective: # optional
+ko_fi: # optional
+tidelift: # optional
+community_bridge: # optional
+liberapay: # optional
+issuehunt: # optional
+lfx_crowdfunding: # optional
+polar: # optional
+buy_me_a_coffee: # optional
+thanks_dev: # optional
+
+custom: ["https://www.patreon.com/cw/incRX"]
